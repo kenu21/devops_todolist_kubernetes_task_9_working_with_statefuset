@@ -34,7 +34,7 @@ This will perform the following actions:
 * Create a kind cluster using `cluster.yml`.
 * Apply the `mysql` namespace.
 * Deploy PersistentVolume (`pv.yml`) and PersistentVolumeClaim (`pvc.yml`).
-* Deploy the ConfigMap (`configMap.yml`) and Secret (`secret.yml`).
+* Deploy the ConfigMap (`confgiMap.yml`) and Secret (`secret.yml`).
 * Deploy MySQL StatefulSet (`statefulSet.yml`) with 3 replicas.
 * Deploy the ToDo app Deployment (`deployment.yml`).
 

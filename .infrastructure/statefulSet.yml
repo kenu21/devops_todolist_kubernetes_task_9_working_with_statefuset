@@ -95,7 +95,7 @@ spec:
   - metadata:
       name: data
     spec:
-      accessModes: ["ReadWriteOnce"]
+      accessModes: ["ReadWriteMany"]
       resources:
         requests:
           storage: 2Gi
